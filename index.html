@@ -1,0 +1,25 @@
+<html lang="fr">
+<head>
+	<title>Jeu JS</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="./css/style.css">
+	<script src="./js/assets.js"></script>
+	<script src="./js/index.js"  type="module"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/1.1.28/howler.min.js"></script>
+	<!-- to resolve "Cannot GET /favicon.ico" error -->
+	<link rel="shortcut icon" href="#" />
+</head>
+<body>	
+	<h1>Premier jeu en JS / ESTIA-MBDS 2021</h1>
+	<div class="score"></div>
+	<div class="live"></div>
+	<p>Click on play and the music will start at the same time as the game</p>
+	<div class="sounds">
+		<button class="play">Play</button>
+		<button class="mute">Mute</button>
+	</div>
+	<img id="img_ball" src="assets/images/ball.jpg">	
+	<img id="img_brick" src="assets/images/brick1.jpg">	
+	<canvas class="screen" id="myCanvas" width="800" height="600"></canvas>
+</body>
+</html>

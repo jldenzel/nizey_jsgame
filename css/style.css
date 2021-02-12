@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "CranberryBlues";
+    src: url("/assets/fonts/CranberryBlues.ttf");
+}
+
+body{
+    background: url(../assets/images/bggame.png) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    justify-content: top center ;
+}
+img {
+    display: none;
+}
+
+#myCanvas{
+   margin-left: 350px;
+   margin-top: 50px ;
+   background-color: white; 
+   border: 10px solid gray;
+}
+
+h1 {
+    font-family: "CranberryBlues";
+    color: black;
+    border: 2px solid blue;
+    background-color: rgb(128, 128, 128);
+    text-align: center;
+}
+
+p {
+    font-family: "CranberryBlues";
+    color: black;
+    border: 2px solid blue;
+    text-align: center;
+}
+
+.sounds{
+    text-align: right;
+    margin-top: 10px;
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 10px 27px;
+}
